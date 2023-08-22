@@ -286,7 +286,7 @@
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
   
@@ -300,6 +300,8 @@
     border: 1px solid #e6e6e6;
     padding: 20px;
     border-radius: 5px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   .project-card .project-header {
